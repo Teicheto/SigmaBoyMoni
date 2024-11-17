@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SigmaBoyMoni Merchandise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #f39c12;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background-color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h2 {
+            margin: 10px 0;
+        }
+        .product p {
+            margin: 0 0 10px 0;
+        }
+        .product button {
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .product button:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to SigmaBoyMoni</h1>
+    </header>
+    <main>
+        <div class="products">
+            <div class="product">
+                <img src="SigmaBoyMoni.jpg" alt="SigmaBoyMoni T-Shirt">
+                <h2>СигмаМони Стикер</h2>
+                <p>$5</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="T-shirtSigmaMoni.jfif" alt="SigmaBoyMoni Hoodie">
+                <h2>СигмаМони тениска за кючеци</h2>
+                <p>$15</p>
+                <button>Кефи ма</button>
+            </div>
+            <div class="product">
+                <img src="cap.jpg" alt="SigmaBoyMoni Cap">
+                <h2>Cap</h2>
+                <p>$14.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
